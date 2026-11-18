@@ -1,0 +1,37 @@
+{
+  "title": "SMS Spam Collection",
+  "source": "UCI Machine Learning Repository",
+  "source_url": "https://archive.ics.uci.edu/dataset/228/sms+spam+collection",
+  "doi": "10.24432/C5CC84",
+  "license": "CC BY 4.0",
+  "original_file_sha256": "7d039a24a6083ed9ef0f806ebad56bbb976e3aeb8de05669173bfdc4996c239d",
+  "raw_rows": 5574,
+  "deduplication": {
+    "raw_rows": 5574,
+    "conflicting_texts_removed": 0,
+    "duplicate_rows_removed": 429,
+    "clean_rows": 5145
+  },
+  "split_seed": 4158,
+  "split_counts": {
+    "train": 3601,
+    "test": 772,
+    "validation": 772
+  },
+  "class_counts_after_deduplication": {
+    "ham": 4517,
+    "spam": 628
+  },
+  "calibration_protocol": "The 15% validation split is halved: sigmoid calibration on one half; decision and abstention thresholds on the other.",
+  "test_policy": "The 15% test split is used once after all choices are frozen.",
+  "model_provenance": {
+    "minilm_identifier": "sentence-transformers/all-MiniLM-L6-v2",
+    "bundled_encoder_sha256": "1377e9af0ca0b016a9f2aa584d6fc71ab3ea6804fae21ef9fb1416e2944057ac",
+    "bilstm_deployment_seed": 4158,
+    "bilstm_stability_seeds": [
+      4158,
+      4159,
+      4160
+    ]
+  }
+}

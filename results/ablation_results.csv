@@ -1,0 +1,5 @@
+variant,evaluation_split,macro_f1,spam_f1,pr_auc
+"word unigrams, normalized",selection,0.9405202169625246,0.8958333333333334,0.9508122649168191
+"word unigrams+bigrams, normalized",selection,0.951547103495889,0.9148936170212766,0.9640422399144379
+"word unigrams+bigrams, raw surface text",selection,0.9439415210340321,0.9010989010989011,0.9583989553365664
+"word+character hybrid, normalized",selection,0.9449855100004751,0.9032258064516129,0.9745562061538142
